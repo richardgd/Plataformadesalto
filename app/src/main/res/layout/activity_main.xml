@@ -1,0 +1,105 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo"
+        android:visibility="visible"/>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:context="com.example.richardgonzalez.plataformadesalto.InicioActivity">
+        <EditText
+            android:id="@+id/etusuario"
+            style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:hint="Usuario"
+            android:inputType="textWebEmailAddress"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/background_dark"
+            android:textIsSelectable="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/black"
+            tools:style="@style/Widget.AppCompat.Light.AutoCompleteTextView" />
+
+        <EditText
+            android:id="@+id/etcontraseña"
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:hint="Contraseña"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/background_dark"
+            android:textIsSelectable="false"
+            android:inputType="textPassword"
+            android:singleLine="false"
+            android:textAlignment="center"
+            tools:style="@style/Widget.AppCompat.Light.AutoCompleteTextView" />
+
+        <Button
+            android:id="@+id/email_sign_in_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:duplicateParentState="false"
+            android:onClick="Login"
+            android:text="Ingresar"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/email_create_account_button"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="-49dp"
+            android:text="Registrarse" />
+
+        <EditText
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:inputType="text"
+            android:textColorHint="@android:color/black"
+            android:hint="¿No recuerda sus datos?"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            tools:style="@style/Widget.AppCompat.Light.AutoCompleteTextView" />
+
+        <TextView
+            android:id="@+id/tv_recuperar"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="223dp"
+            android:layout_marginTop="-33dp"
+            android:text="Ingresa Aquí"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sign_out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Sing out"
+        android:visibility="gone" />
+</FrameLayout>
+
+

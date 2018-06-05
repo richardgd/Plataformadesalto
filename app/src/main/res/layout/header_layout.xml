@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="?attr/colorPrimary"
+    >
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tittleNombre"
+        android:text="Deportes UAC"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/feNombre"
+        android:text="DeUAC"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBluetooth"
+        android:src="@drawable/bluetooth_48" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOption"
+        android:src="@drawable/menu_"
+         />
+
+
+</LinearLayout>

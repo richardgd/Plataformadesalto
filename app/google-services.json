@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "261988954090",
+    "firebase_url": "https://plataforma-de-salto.firebaseio.com",
+    "project_id": "plataforma-de-salto",
+    "storage_bucket": "plataforma-de-salto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261988954090:android:3208d09c4101aa06",
+        "android_client_info": {
+          "package_name": "com.example.richardgonzalez.plataformadesalto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261988954090-707uujbruojugji7l4sfhr4iefbrmkh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.richardgonzalez.plataformadesalto",
+            "certificate_hash": "d6e00f5b8214b00ad248ec207b365c4e9a4a024f"
+          }
+        },
+        {
+          "client_id": "261988954090-d0cktsqkueol5d5d4g8pv04qu1dbr9qp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "261988954090-d0cktsqkueol5d5d4g8pv04qu1dbr9qp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBznqwfZdGN59HsArN7bk_7_jb56SuySyI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261988954090-d0cktsqkueol5d5d4g8pv04qu1dbr9qp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

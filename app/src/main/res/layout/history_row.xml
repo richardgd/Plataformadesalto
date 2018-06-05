@@ -1,0 +1,94 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="4dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFecha"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Fecha"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAltura"
+            android:textSize="16sp"
+            android:text="Altura"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvVuelo"
+            android:textSize="16sp"
+            android:text="Tiempo de Vuelo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvReaccion"
+            android:textSize="16sp"
+            android:text="Tiempo de Reaccion"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPotencia"
+            android:textSize="16sp"
+            android:text="Potencia"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvApoyo"
+            android:textSize="16sp"
+            android:text="Tiempo de Apoyo"/>
+
+
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graficar"
+            android:id="@+id/checkBoxGraph"
+            android:checked="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageOption2"
+            android:src="@drawable/more_24_"
+            android:layout_gravity="right"
+            android:onClick="levantarMenuPopUp"
+
+            android:background="#00ffffff" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.v7.widget.CardView>

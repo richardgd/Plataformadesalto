@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mConexion"
+        android:title="@string/conexion">
+    </item>
+
+    <item
+        android:id="@+id/mHistory"
+        android:title="@string/Historial_del_Deportista">
+    </item>
+
+
+</menu>
